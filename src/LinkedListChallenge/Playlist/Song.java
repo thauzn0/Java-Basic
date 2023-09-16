@@ -1,4 +1,4 @@
-package LinkedListChallenge;
+package LinkedListChallenge.Playlist;
 
 public class Song {
 
@@ -14,14 +14,10 @@ public class Song {
         return title;
     }
 
-
     @Override
     public String toString() {
-        return "Song{" +
-                "title='" + title + '\'' +
-                ", duration=" + duration +
-                '}';
+        return
+                "title:" + title + '\'' +
+                "duration:" + duration;
     }
-
-
 }
