@@ -9,8 +9,8 @@ public class Hamburger {
     public Hamburger(String name, String meat, double breadRollType, String price) {
         this.name = name;
         this.meat = meat;
-        this.breadRollType = breadRollType;
-        this.price = price;
+        this.breadRollType = String.valueOf(breadRollType);
+        this.price = Double.parseDouble(price);
     }
 
     private String addition1Name;
